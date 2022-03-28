@@ -38,19 +38,6 @@ output "ip_address" {
   value = module.produto.ip_address
 }
 ```
-
-Crie seu arquivo **.env** a partir do exemplo **.env.example**
-
-```
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-
-```
-
-Crie o arquivo Makefile com base nos exemplos:
-[Makefile-example-en](terraform-module/Makefile-example-en) -> Original em Ingles  
-[Makefile-example-en](terraform-module/Makefile-example-pt-Br) -> Traduzido pt-Br
-
 ## Inputs
 
 | **Nome** | **Descrição** | **Tipo** | **Default** | **Requerido** |
